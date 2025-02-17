@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Button } from "react-bootstrap"
+import NavbarComponent from "./navbar/NavbarComponent"
+import LandingPage from "./landingPage/LandingPage"
+import ServiceComponent from "./services/Service"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-[#CAF0F8]">
+      {/* <Button variant="primary">Click Me</Button>
+
+      <h1 className="text-xl font-light text-blue-500">Tailwind CSS Test</h1> */}
+      <NavbarComponent />
+      <LandingPage></LandingPage>
+      <ServiceComponent></ServiceComponent>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
