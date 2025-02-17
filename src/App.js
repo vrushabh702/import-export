@@ -2,6 +2,7 @@ import { Button } from "react-bootstrap"
 import NavbarComponent from "./navbar/NavbarComponent"
 import LandingPage from "./landingPage/LandingPage"
 import ServiceComponent from "./services/Service"
+import AboutComponent from "./about/about"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavbarComponent />
       <LandingPage></LandingPage>
       <ServiceComponent></ServiceComponent>
+      <AboutComponent></AboutComponent>
     </div>
   )
 }

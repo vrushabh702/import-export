@@ -27,10 +27,10 @@ function LandingPage() {
             </Button>
           </div>
         </div>
-        <div className="col-7">
+        <div className="col-7 max-w-full overflow-hidden">
           <img
             src="images/home/home1.png"
-            className="mt-5 w-[1120px] h-[967px] opacity-100 border-0 outline-0 object-cover object-center"
+            className="mt-5 w-auto h-auto max-w-full max-h-full opacity-100 border-0 outline-0 object-cover object-center"
             alt="home-logo"
           />
         </div>
