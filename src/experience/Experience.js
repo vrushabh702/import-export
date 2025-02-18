@@ -1,11 +1,15 @@
 import React from "react"
 
-function AboutComponent() {
+function ExperienceComponent() {
   return (
-    <section className="flex items-center justify-center h-840   bg-blue9 py-9  mt-5">
-      <div className="container mx-0 px-6 lg:px-16">
+    <section className="flex items-center justify-center h-[600px] ">
+      <img
+        src="images/experience/experience1.png"
+        alt="Home Image"
+        className="h-[600px]"
+      />
+      {/* <div className="container mx-auto px-6 lg:px-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          {/* Left Side - Image */}
           <div className="w-full">
             <img
               src="images/about/about.png"
@@ -14,7 +18,6 @@ function AboutComponent() {
             />
           </div>
 
-          {/* Right Side - Text */}
           <div className=" space-y-[48px] box-border">
             <h1 className="text-7xl text-blue2 font-bold mb-4">About</h1>
             <h3 className="text-5xl text-blue3 font-bold mb-3 ms-20">
@@ -31,9 +34,9 @@ function AboutComponent() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
 
-export default AboutComponent
+export default ExperienceComponent

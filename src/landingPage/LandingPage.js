@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap"
 
 function LandingPage() {
   return (
-    <div className="LandingPage bg-[#CAF0F8]">
+    <div className="LandingPage bg-[#CAF0F8] overflow-x-hidden">
       <section className="row ">
         <div className="col-5 ">
           <div className=" absolute left-[126px] top-[357px] space-y-[47px]">
