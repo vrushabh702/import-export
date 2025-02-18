@@ -2,39 +2,51 @@ import React from "react"
 
 function ExperienceComponent() {
   return (
-    <section className="flex items-center justify-center h-[600px] ">
+    <section className="relative flex items-center justify-center bg-blue2 h-[600px] ">
       <img
         src="images/experience/experience1.png"
         alt="Home Image"
-        className="h-[600px]"
+        className="h-[600px] w-full object-cover opacity-[80%]"
       />
-      {/* <div className="container mx-auto px-6 lg:px-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          <div className="w-full">
+      <div className="absolute w-[250px] top-[100px] left-[439px] h-[250px] bg-white py-[30px] px-[26px] rounded-2xl">
+        <div className="space-y-[20px] justify-center text-center flex flex-col items-center ">
+          <div className="w-[100px] h-[100px] bg-blue3 rounded-[20px] flex items-center justify-center">
             <img
-              src="images/about/about.png"
-              alt="Home Image"
-              className="w-full max-w-[918.63px] h-[640px]"
+              src="images/experience/customer.png"
+              alt="customer"
+              className=" w-[60px] h-[60px] justify-items-center  object-cover"
             />
           </div>
-
-          <div className=" space-y-[48px] box-border">
-            <h1 className="text-7xl text-blue2 font-bold mb-4">About</h1>
-            <h3 className="text-5xl text-blue3 font-bold mb-3 ms-20">
-              TradeLinkGlobal
-            </h3>
-            <p className="text-4xl font-semibold  text-black">
-              Insights and Resources to help drive your Business Forward Faster.
-            </p>
-            <p className="text-2xl font-text text-black text-left">
-              We build results-oriented brand strategy and continually refine
-              the campaign for the greatest outcome. From full scale branding
-              strategy, we are reaching to almost desired buyers throughout the
-              world.
-            </p>
-          </div>
+          <p className="text-bold text-2xl">150+</p>
+          <p className="text-blue5 text-sm">Happy Buyers</p>
         </div>
-      </div> */}
+      </div>
+      <div className="absolute w-[250px] top-[250px]  left-[739px]  h-[250px] bg-white py-[30px] px-[26px] rounded-2xl">
+        <div className="space-y-[20px] justify-center text-center flex flex-col items-center ">
+          <div className="w-[100px] h-[100px] bg-blue3 rounded-[20px] flex items-center justify-center">
+            <img
+              src="images/experience/customer-satisfaction.png"
+              alt="Consignment Done"
+              className=" w-[60px] h-[60px] justify-items-center  object-cover"
+            />
+          </div>
+          <p className="text-bold text-2xl">10+</p>
+          <p className="text-blue5 text-sm">Years Experience</p>
+        </div>
+      </div>
+      <div className="absolute w-[250px] top-[105px] left-[1039px]  h-[250px] bg-white py-[30px] px-[26px] rounded-2xl">
+        <div className="space-y-[20px] justify-center text-center flex flex-col items-center ">
+          <div className="w-[100px] h-[100px] bg-blue3 rounded-[20px] flex items-center justify-center">
+            <img
+              src="images/experience/shipping.png"
+              alt="Consignment Done"
+              className=" w-[60px] h-[60px] justify-items-center  object-cover"
+            />
+          </div>
+          <p className="text-bold text-2xl">1500+</p>
+          <p className="text-blue5 text-sm">Consignment Done</p>
+        </div>
+      </div>
     </section>
   )
 }
