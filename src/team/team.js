@@ -116,12 +116,12 @@ function TeamComponent() {
             <div className="relative w-[450px] h-[600px] bg-white rounded-[50px]">
               <div className="flex justify-center mb-8">
                 <div className="w-[250px] h-[250px] mt-[70px] rounded-full border-8 border-[#0077B6]">
-                  <img
-                    src="images/team/team.png"
-                    alt="plastic Products"
-                    className="w-[250px] h-[235px] object-cover"
-                  />
-                </div>
+                <img
+                  src="images/team/team.png"
+                  alt="plastic Products"
+                  className="w-[250px] h-[235px] object-cover"
+                />
+              </div>
               </div>
 
               <div className=" text-center space-y-[8px] ">

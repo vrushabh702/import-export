@@ -7,6 +7,7 @@ import ExperienceComponent from "./experience/Experience"
 import OurWorkComponent from "./ourWork/OurWork"
 import TeamComponent from "./team/team"
 import OurClientComponent from "./ourClient/OurClient"
+import FooterComponent from "./footer/footer"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <OurWorkComponent></OurWorkComponent>
       <TeamComponent></TeamComponent>
       <OurClientComponent></OurClientComponent>
+      <FooterComponent></FooterComponent>
     </div>
   )
 }
